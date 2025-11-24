@@ -3,19 +3,14 @@
     "gin_mode": "debug",
     "port_run": "7779",
     "server_url": "localhos",
-    "server_namr": "OnlineShop"
+    "server_namr": "CookingService"
   },
   "posgres_params":{
   "host": "localhost",
    "port": "5432",
     "user": "postgres",
-    "database": "onlineshop"
+    "database": "cookingService"
 },
-  "redis_params": {
-    "host": "localhost",
-    "port": "6379",
-    "database": 0
-  },
   "auth_params": {
     "access_token_ttl_minutes": 5,
     "refresh_token_ttl_days": 30

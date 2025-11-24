@@ -1,13 +1,13 @@
 SWAGGER_OUT=./docs
 
 POSTGRES_USER=postgres
-POSTGRES_PASSWORD=1234
+POSTGRES_PASSWORD=nicita130
 POSTGRES_HOST=localhost
-POSTGRES_PORT=5432
-POSTGRES_DATABASE=auth_service_db
+POSTGRES_PORT=5435
+POSTGRES_DATABASE=home_work_db
 
 # DB_URL=postgres://user:password@host:port/db?sslmode=disable
-DB_URL=postgres://$(POSTGRES_USER):$(POSTGRES_PASSWORD)@$(POSTGRES_HOST):$(POSTGRES_PORT)/$(POSTGRES_DATABASE)?sslmode=disable
+DATABASE_URL=postgres://$(POSTGRES_USER):$(POSTGRES_PASSWORD)@$(POSTGRES_HOST):$(POSTGRES_PORT)/$(POSTGRES_DATABASE)?sslmode=disable
 
 
 .PHONY: swag run migrate up down create_migration

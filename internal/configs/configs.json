@@ -7,7 +7,7 @@
   },
   "posgres_params":{
   "host": "localhost",
-   "port": "5432",
+   "port": "5433",
     "user": "postgres",
     "database": "cookingService"
 },
